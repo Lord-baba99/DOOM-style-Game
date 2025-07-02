@@ -64,7 +64,7 @@ class Game:
                 self.global_trigger = True
             self.player.single_fire_event(event)
     
-    def draw_minimap(self):
+    def draw_minimap(self):            
         """
         Renders a minimap of the game world, displaying walls, the player's position, 
         and the player's field of view. This function provides a visual representation 
